@@ -1,0 +1,80 @@
+/* ROOT & VARIABLES */
+:root {
+  /* Colors */
+  --clr-dark: #001114;
+  --clr-light: #F9FEFF; 
+  --clr-main: #ACBDC0;
+  --clr-accent: #FF686B;
+
+  /* Fonts */
+  --font-main: 'Arimo', sans-serif;
+  --font-accent: 'Nothing You Could Do', cursive;
+
+  /* Sizes */
+  --size-h1: 100px;
+  --size-h2: 42px;
+  --size-subtitle: 32px;
+  --size-p: 16px;
+  --size-small: 14px;
+
+  /* Margins */
+  --margin-page: 120px;
+}
+
+/* GENERAL STYLES */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+  font-family: var(--font-main); 
+}
+a {
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  font-style: italic;
+  transition: all 0.2s ease-in-out;
+}
+.main-navigation {
+  /* border: 1px solid lightgray; */
+  width: 80%;
+  height: 10%;
+}
+.main-nav ul {
+  display: flex;
+}
+.main-nav .nav-item {
+  margin: 1rem 3rem;
+}
+.container {
+  /* border: 1px solid lightgray; */
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 80%;
+}
+.container--main {
+  align-items: center;
+  justify-content: center;
+}
+.container--lists {
+  padding-top: 5rem;
+  padding-left: 3rem;
+  align-items: flex-start;
+}
+.items-list li {
+  margin-bottom: 1.5rem;
+}
+/* HOME */
+.main-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
