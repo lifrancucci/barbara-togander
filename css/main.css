@@ -169,9 +169,9 @@ a:hover {
 .individual__section .section--body {
   margin-top: 3rem;
 }
-.section--body img {
+/* .section--body img {
   width: 80%;
-}
+} */
 .section--image img,
 .section--image video {
   width: 100%;
@@ -188,7 +188,7 @@ a:hover {
 .iframe-container iframe {
   padding: 0;
 }
-.record-cover {
-  width: 100%;
+.section--image .album-cover {
+  width: 80%;
   padding-left: 1.5rem;
 }
