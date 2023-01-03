@@ -100,8 +100,8 @@ a:hover {
 }
 .tec-info {
   color: var(--clr-main);
-  font-size: 1rem;
-  line-height: 1.7;
+  /* font-size: 1rem; */
+  line-height: 1.5; 
   margin-top: 1.5rem;
 }
 .tec-info a {
